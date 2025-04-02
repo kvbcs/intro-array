@@ -22,7 +22,6 @@ const heroes = [
 //Challenge 1
 const activeHeroes = heroes.filter(hero => hero.isActive);
 console.log("Challenege 1 : Liste d'héros actifs", activeHeroes);
-c1.innerHTML = activeHeroes
 
 //Challenge 2
 const marvelHeroes = heroes.filter(hero => hero.universe === "Marvel");
